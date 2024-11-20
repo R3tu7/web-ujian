@@ -1,0 +1,191 @@
+.container{
+    margin: auto;
+    background-color: white;
+    width:1300px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+
+}
+body{
+    font: 16px/20px arial;
+    background-color: moccasin;
+    color: black;
+}
+.top-bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 40px;
+    background-color: burlywood;
+    border-bottom: 2px solid black;
+    z-index: 9999;
+}
+
+
+
+
+.header{
+    padding: 20px;
+
+}
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.header a{
+    text-decoration: none;
+    color:brown;
+    padding:2px;
+
+}
+.header a:hover{
+    background-color: white;
+    color: black;
+}
+.poto{
+    height: 300px;
+    background-image: url(oplet.jpg);
+    background-size: cover;
+    background-position: 0 -270px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    
+
+}
+.navigasi{
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+
+}
+.navigasi h2{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navigasi.penulis{
+    margin-top: -15px;
+    font-size: 12px;
+
+}
+.navigasi a{
+    text-decoration: none;
+    color:lightcoral;
+}
+
+.navigasi p{
+    font-size: 13px;
+    margin-bottom: 20px ;
+    text-align: justify;
+}
+
+
+.footer{
+    background-color:burlywood;
+    padding: 10px;
+    border-top: 2px solid black;
+
+} 
+.footer .copy{
+    color:black;
+    text-align: center;
+    font-size: 12px;
+
+}
+/* rebahan */
+.rebahan{
+    width: 650px;
+    float: right;
+    padding: 20px;
+}
+.rebahan img{
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    float: left;
+    padding-right: 20px;
+
+
+
+}
+.rebahan h3{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+p ul li{
+    font-size: 13px;
+
+
+}
+.rebahan ul li {
+    color: black;
+    font-size: 13px;
+}
+p{
+    font-size: 15px;
+    color: #333;
+}
+.copy a{
+    color: white;
+    text-decoration: none;
+}
+.copy a:hover{
+    background-color: palegoldenrod;
+    color: plum;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+
+}
+
+
+
